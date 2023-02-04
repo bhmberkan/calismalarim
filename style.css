@@ -1,0 +1,236 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px 50px 150px;
+    font-size: 13px;
+    text-align: center;
+    background: white;
+}
+header{
+  
+  background: rgb(218, 57, 8);
+}
+.blog{
+    float: left;
+    height: 60px;
+    margin-left: +10px;
+    margin-top:  +10px; 
+}
+.menü{
+    border: 3px solid black ;
+    text-align: left;
+    display: inline;
+    margin: 0;
+    padding: 15px 5px 17px 0;
+    list-style: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  ul li {
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px 20px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  ul li:hover {
+    background: #555;
+    color: #fff;
+  }
+  ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 150px;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+  }
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+  }
+  ul li ul li:hover { background: #4A2632; }
+  ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+.login{
+    float: right;  
+    width: 60px;
+    height: 50px;
+    border: 3px solid rgb(11, 12, 11);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color:black;
+    background: rgba(240, 236, 236, 0.1);
+    cursor:pointer; 
+    
+}
+.login:hover{
+    background-color: white;
+}
+.soltaraf{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /*border: 3px solid black;*/
+  width: 33%;
+  height: 400px;
+  background:rgba(250, 250, 250, 0.8);
+ /* border-radius: 5px 0 0 5%;*/
+  float: left;
+  margin-top: +10px;
+  margin-left: +70px;
+}
+.soltaraf::-webkit-scrollbar-track{
+ background-color: #F5F5F5;
+ border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+}
+.soltaraf::-webkit-scrollbar{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+.soltaraf::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  
+	background-image: -webkit-gradient(linear,left bottom,left top,
+									   color-stop(0.44, rgb(170, 80, 21)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(9, 9, 10)));
+}
+.soltaraf h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+  text-decoration: underline;
+}
+.soltaraf p{
+  color: black;
+  text-align: start;
+  text-indent: 10px;
+  letter-spacing: 0.3px;
+}
+.soltaraf pre{
+  color:rgb(11, 100, 100);
+  text-decoration: underline;
+}
+#sectionbaslik{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#can{
+  width:470px;
+  height: 400px;
+ /* border: 3px solid black;*/
+  /*border-radius: 0 0 5% 0;*/
+  margin-top: +10px;
+  margin-left: +15px;
+  float: left;
+}
+.readmore{
+  margin-left: +10px;
+  float: left;
+  width: 30%;
+  height: 50px;
+  border: 3px solid #0000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#666;
+  background:#000;
+  cursor:pointer; 
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.article{
+  margin-top: +430px;
+  margin-left: +167px;
+ /* border: 3px solid black;*/
+  width: 400px;
+  height: 200px;
+  
+}
+.article img{
+  width: 400px;
+  height: 200px;
+}
+.article2
+{
+  margin-top: -412px;
+  margin-left: +580px;
+ /* border: 3px solid black;*/
+  width: 400px;
+  height: 405px;
+}
+.container{
+  
+  margin-left: +167px;
+  /*border: 3px solid black;*//*yemek fotosunun altinda kalan kisim*/
+  width: 400px;
+  height: 200px;
+}
+.container h1{
+  font-size: medium;
+
+}
+.container p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 13px;
+  text-align: start;
+}
+.yesil{
+  margin-top: +10px;
+  margin-left: +470px;
+  border: 3px solid black;
+  border-radius: 15px;
+  height: 200px;
+  width: 200px;
+  background: rgb(22, 182, 115);
+  padding: 1px 30px 30px 10px;
+}
+.turuncu{
+        border: 5px solid black;
+        height: 200px;
+        width: 200px;
+        padding: 0 0 0 5px;
+        margin: 0; 
+        background: rgb(218, 57, 8);
+        border-radius: 15px;
+}
+.fot1 img{
+  width: 35%;
+  height: 10%;
+  float: left;
+  margin-left: +10px;
+    
+}
+.fot2{
+  margin-top: 40px;
+}
+.fot2 img{
+  width: 35%;
+  height: 10%;
+  float: left;
+  margin-left: +10px;
+}
+.fot3{
+  margin-top: 60px;
+}
+.fot3 img{
+  width: 35%;
+  height: 10%;
+  float: left;
+  margin-left: +10px;
+}
+
+
